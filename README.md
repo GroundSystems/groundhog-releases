@@ -1,16 +1,17 @@
 # groundctl
 
-Public releases and the Homebrew tap for the `groundctl` CLI.
+Public release artifacts for the `groundctl` CLI.
 
 ## Install with Homebrew
 
-Because this repository is named `groundctl` rather than `homebrew-groundctl`,
-add its explicit URL the first time you tap it:
-
 ```sh
-brew tap GroundSystems/groundctl https://github.com/GroundSystems/groundctl
-brew install groundctl
+brew install GroundSystems/groundctl/groundctl
 ```
 
-Versioned releases publish an Apple Silicon macOS archive, its SHA-256 checksum,
-and the matching `Formula/groundctl.rb`.
+The formula is maintained in
+[`GroundSystems/homebrew-groundctl`](https://github.com/GroundSystems/homebrew-groundctl).
+
+## Direct downloads
+
+Versioned Apple Silicon macOS archives and their SHA-256 checksums are available
+from [GitHub Releases](https://github.com/GroundSystems/groundctl/releases).
