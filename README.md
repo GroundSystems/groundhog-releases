@@ -1,17 +1,31 @@
-# groundctl
+# Groundhog releases and documentation
 
-Public release artifacts for the `groundctl` CLI.
+This public repository contains Groundhog release downloads and user documentation. The
+Groundhog source repository is private.
 
 ## Install with Homebrew
 
 ```sh
-brew install GroundSystems/groundctl/groundctl
+brew install GroundSystems/groundhog/groundhog
 ```
 
 The formula is maintained in
-[`GroundSystems/homebrew-groundctl`](https://github.com/GroundSystems/homebrew-groundctl).
+[`GroundSystems/homebrew-groundhog`](https://github.com/GroundSystems/homebrew-groundhog).
 
 ## Direct downloads
 
-Versioned Apple Silicon macOS archives and their SHA-256 checksums are available
-from [GitHub Releases](https://github.com/GroundSystems/groundctl/releases).
+Versioned Apple Silicon macOS and x86-64 Linux archives and their SHA-256 checksums are
+published under [GitHub Releases](https://github.com/GroundSystems/groundhog-releases/releases).
+Every archive includes the `groundhog` binary, build provenance, the Groundhog license, and
+third-party license notices.
+
+## Documentation
+
+The Groundhog manual is maintained in [`docs/`](docs/). Its `docs.json` configuration is ready
+for a Mintlify deployment using `/docs` as the documentation path.
+
+## License
+
+The documentation and other repository contents are licensed under the
+[Functional Source License, Version 1.1, ALv2 Future License](LICENSE.md). Release archives
+contain the license and third-party notices applicable to the included binary.
